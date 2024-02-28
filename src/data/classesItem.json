@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Pre-School Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/PreSchoolImg.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Bangla Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/BanglaClassImg.jpg"
+    },
+    {
+        "id": 3,
+        "title": "English Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/EnglishClassImg.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Math Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/MathClassImg.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Physics Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/PhysicClassImg.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Chemistry Class",
+        "Lessons": "13 Lessons",
+        "Students": "20 Students",
+        "contact": "Alice Bohm , Linda Glendell",
+        "price": "$90",
+        "imgUrl": "src/assets/Image/ChemistryClassImg.jpg"
+    }
+]

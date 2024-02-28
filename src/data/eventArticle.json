@@ -1,0 +1,74 @@
+[
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog1.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog2.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog3.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog4.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog4.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog3.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog2.jpg"
+    },
+    {
+        "address": "455 Washington, Jersey City, NJ, USA",
+        "title": "Family Field Day",
+        "time": "2:30 pm - 7:30 pm",
+        "price": "$79",
+        "date": "22",
+        "month": "Dec",
+        "imgUrl": "src/assets/blogImage/blog1.jpg"
+    }
+]

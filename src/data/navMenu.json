@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Home",
+        "route": "/"
+    },
+    {
+        "text": "Events",
+        "route": "/event"
+    },
+    {
+        "text": "Teachers",
+        "route": "/teachers"
+    },
+    {
+        "text": "Classes",
+        "route": "/classes"
+    },
+    {
+        "text": "About Us",
+        "route": "/aboutUs"
+    },
+    {
+        "text": "Contact",
+        "route": "/contact"
+    }
+]
