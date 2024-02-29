@@ -60,7 +60,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li>
-               <Dropdown/>
+                <Dropdown />
               </li>
             </ul>
           </div>

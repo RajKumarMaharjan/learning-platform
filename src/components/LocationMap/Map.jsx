@@ -1,29 +1,22 @@
-import PropTypes from 'prop-types';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup,  } from "react-leaflet";
 
-// Leaflet Map
-const LocationMap = ({ latitude, longitude, zoom }) => {
+function Map() {
+  const position = [34.073620, -118.400352]
   return (
-    <MapContainer center={[latitude, longitude]} zoom={zoom} style={{ height: '400px', width: '100%' }}>
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-      <Marker position={[latitude, longitude]}>
-        <Popup>
-            {latitude}
-            {longitude}
-            {zoom}
-        </Popup>
-      </Marker>
-    </MapContainer>
+    <div>
+      <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{width:'100%', height: '400px'}}>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={position}>
+          <Popup>
+          4297 Libby Street, Beverly Hills, California
+          </Popup>
+        </Marker>
+      </MapContainer>
+    </div>
   );
-};
+}
 
-LocationMap.propTypes = {
-    latitude: PropTypes.string.isRequired,
-    longitude: PropTypes.string.isRequired,
-    zoom: PropTypes.string.isRequired,
-  };
-
-export default LocationMap;
+export default Map;

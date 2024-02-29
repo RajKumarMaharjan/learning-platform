@@ -10,8 +10,8 @@ function Contact() {
         <div>
           <ContactForm />
         </div>
-        <div className="w-full h-[600px]">
-          <LocationMap latitude="51.505" longitude="0.09" zoom="13"/>
+        <div>
+          <LocationMap />
         </div>
       </div>
     </div>
