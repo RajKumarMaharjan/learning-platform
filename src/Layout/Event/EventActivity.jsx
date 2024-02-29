@@ -57,7 +57,7 @@ function EventActivity() {
           </p>
         </div>
       </div>
-      <div className="grid md:grid-cols-4 gap-8 px-4 pb-[100px]">
+      <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-8 px-4 sm:px-24 md:px-4 pb-[100px]">
         {ExtraActivity.map((data, index) => (
           <div
             key={index}

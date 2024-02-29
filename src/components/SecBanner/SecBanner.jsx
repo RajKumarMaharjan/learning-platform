@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import DotLeft from "../../assets/Image/sideColorDot.svg";
-import StarRight from "../../assets/Image/kid2.star.svg"
+import DotLeft from "../../../public/Image/sideColorDot.svg";
+import StarRight from "../../../public/Image/kid2.star.svg"
 
 function SecBanner({ title, link1, link2 }) {
   return (

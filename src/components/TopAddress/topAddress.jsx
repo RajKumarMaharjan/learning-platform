@@ -5,9 +5,9 @@ import SocialMedia from "../SocialMediaIcon/SocialMedia";
 function topAddress() {
   return (
     <div>
-      <div className="border-b  py-4">
-        <div className="md:flex justify-between place-items-center w-full px-4">
-          <div className="md:flex space-x-4 text-dark font-semibold text-[14px]">
+      <div className="border-b py-4">
+        <div className="sm:flex justify-between place-items-center md:w-full sm:w-5/6 sm:mx-auto px-4">
+          <div className="sm:flex flex-wrap sm:gap-2 md:gap-4 text-dark font-semibold text-[14px]">
             <p className="flex place-items-center justify-center gap-1 ">
               <IoMdMail className="text-lightPurple text-[1em]" />
               <span className=""> 0devdesign.studio@gmail.com</span>

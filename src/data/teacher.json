@@ -1,49 +1,49 @@
 [
     {
         "id": 1,
-        "imgUrl": "src/assets/Teacher-image/teacher01.jpg",
+        "imgUrl": "public/Teacher-image/teacher01.jpg",
         "name": "Devil Roy Barman",
         "post": "CEO"
     },
     {
         "id": 2,
-        "imgUrl": "src/assets/Teacher-image/teacher02.jpg",
+        "imgUrl": "public/Teacher-image/teacher02.jpg",
         "name": "Arup Barman",
         "post": "CTO"
     },
     {
         "id": 3,
-        "imgUrl": "src/assets/Teacher-image/teacher01.jpg",
+        "imgUrl": "public/Teacher-image/teacher01.jpg",
         "name": "Politkans",
         "post": "CEO"
     },
     {
         "id": 4,
-        "imgUrl": "src/assets/Teacher-image/teacher04.jpg",
+        "imgUrl": "public/Teacher-image/teacher04.jpg",
         "name": "DSaiful Islam",
         "post": "MANAGER"
     },
     {
         "id": 5,
-        "imgUrl": "src/assets/Teacher-image/teacher05.jpg",
+        "imgUrl": "public/Teacher-image/teacher05.jpg",
         "name": "Munir Hayder",
         "post": "SEO"
     },
     {
         "id": 6,
-        "imgUrl": "src/assets/Teacher-image/teacher01.jpg",
+        "imgUrl": "public/Teacher-image/teacher01.jpg",
         "name": "Pritom Roy",
         "post": "CEO"
     },
     {
         "id": 7,
-        "imgUrl": "src/assets/Teacher-image/teacher07.jpg",
+        "imgUrl": "public/Teacher-image/teacher07.jpg",
         "name": "Devil Roy Barman",
         "post": "MARKETING"
     },
     {
         "id": 8,
-        "imgUrl": "src/assets/Teacher-image/teacher08.jpg",
+        "imgUrl": "public/Teacher-image/teacher08.jpg",
         "name": "Nishad Boruya",
         "post": "CEO"
     }

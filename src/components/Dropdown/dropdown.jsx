@@ -90,7 +90,7 @@ const DropdownMenu = [
                 }
               >
                 <ul>
-                  <li className="hover:text-lightPurple">{item.menu}</li>
+                  <li className="hover:text-lightPurple" onClick={handleClick}>{item.menu}</li>
                 </ul>
               </NavLink>
             ))}

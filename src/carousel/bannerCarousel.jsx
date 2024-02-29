@@ -17,7 +17,7 @@ const BannerCarousel = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative xs:px-0 sm:px-24 md:px-0">
       <Carousel
         showIndicators={false}
         showArrows={false}
@@ -51,15 +51,15 @@ const BannerCarousel = () => {
     </div>
   ))}
       </Carousel>
-      <div className="absolute -bottom-28 left-36 transform -translate-x-1/2 flex gap-5">
+      <div className="absolute -bottom-28 xs:left-36 md:left-36 sm:left-48 transform -translate-x-1/2 flex gap-5">
         <button
-          className="text-xl text-gray-500 focus:outline-none bg-grayDark p-5 rounded-full hover:bg-red transition duration-300 "
+          className="text-[16px] text-gray-500 flex justify-center items-center focus:outline-none bg-[#242D3E] h-12 w-12 rounded-full hover:bg-red transition duration-300 "
           onClick={handlePrevClick}
         >
           <FaArrowLeft />
         </button>
         <button
-          className="text-xl text-gray-500 focus:outline-none  bg-grayDark p-5 rounded-full hover:bg-red transition duration-300"
+          className="text-xl text-gray-500 flex justify-center items-center focus:outline-none  bg-[#242D3E] h-12 w-12 rounded-full hover:bg-red transition duration-300"
           onClick={handleNextClick}
         >
           <FaArrowRight />

@@ -2,7 +2,7 @@ import SubHeading from "../../components/Heading/SubHeading";
 import LargeSubHeading from "../../components/Heading/LargeSubHeading";
 import ClassesChart from "./ClassesChart";
 import PageButton from "../../components/Button/PageButton";
-import BgHalfCircle from "../../assets/Image/HalfCircle.svg";
+import BgHalfCircle from "../../../public/Image/HalfCircle.svg";
 
 function classesLearnAbout() {
   return (

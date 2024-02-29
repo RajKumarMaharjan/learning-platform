@@ -15,8 +15,8 @@ function Article() {
           color="dark"
         />
       </div>
-      <div className="px-4">
-        <div className="grid md:grid-cols-4 gap-8">
+      <div className="px-4 sm:px-24 md:px-4">
+        <div className="grid mx-auto md:grid-cols-4 sm:grid-cols-2 gap-8 xs:w-4/6 sm:w-full">
           {data.map((data) => (
             <div
               key={data.id}

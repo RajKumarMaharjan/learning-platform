@@ -1,4 +1,4 @@
-import Kids from "../../assets/Image/kids.svg";
+import Kids from "../../../public/Image/kids.svg";
 import BannerCarousel from "../../carousel/bannerCarousel";
 import AboutSection from "../../Layout/About/LearnAbout";
 import AboutWhyToRegister from "../../Layout/About/WhyToRegister";

@@ -33,13 +33,13 @@ function TeacherChart() {
               <img
                 src={data.imgUrl}
                 alt={data.name}
-                className="w-full rounded-lg hover:scale-110 object-cover transition duration-300"
+                className="xs:w-full md:w-full sm:w-4/6 mx-auto rounded-lg hover:scale-110 object-cover transition duration-300"
               />
-              <div className="absolute top-[54%] left-1 right-1 md:translate-x-14 translate-x-32">
+              <div className="absolute top-[54%] w-full px-24 md:px-0 flex justify-center items-center">
                 <div
                   onMouseEnter={() => setIsHovered(data.id)}
                   onMouseLeave={() => setIsHovered(null)}
-                  className="bg-[#fff] rounded w-[65%] py-1 flex flex-col justify-center items-center"
+                  className="bg-[#fff] rounded w-[65%] md:py-1 py-6 flex flex-col justify-center items-center"
                 >
                   <h4 className="text-[18px] font-[700]">{data.name}</h4>
                   <p className="text-[14px] font-[500]">{data.post}</p>

@@ -6,7 +6,7 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/PreSchoolImg.jpg"
+        "imgUrl": "public/Image/PreSchoolImg.jpg"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/BanglaClassImg.jpg"
+        "imgUrl": "public/Image/BanglaClassImg.jpg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/EnglishClassImg.jpg"
+        "imgUrl": "public/Image/EnglishClassImg.jpg"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/MathClassImg.jpg"
+        "imgUrl": "public/Image/MathClassImg.jpg"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/PhysicClassImg.jpg"
+        "imgUrl": "public/Image/PhysicClassImg.jpg"
     },
     {
         "id": 6,
@@ -51,6 +51,6 @@
         "Students": "20 Students",
         "contact": "Alice Bohm , Linda Glendell",
         "price": "$90",
-        "imgUrl": "src/assets/Image/ChemistryClassImg.jpg"
+        "imgUrl": "public/Image/ChemistryClassImg.jpg"
     }
 ]

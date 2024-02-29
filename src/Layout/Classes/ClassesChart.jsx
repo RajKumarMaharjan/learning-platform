@@ -11,7 +11,7 @@ function ClassesChart() {
 
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-8 md:justify-center mx-auto md:w-full w-5/6 px-4">
+      <div className="grid md:grid-cols-3 gap-8 md:justify-center mx-auto xs:w-full md:w-full sm:w-5/6 px-4">
         {item.map((item) => (
           <div key={item.id} className="shadow-lg bg-light" 
           onMouseEnter={() => setIsHover(item.id) }

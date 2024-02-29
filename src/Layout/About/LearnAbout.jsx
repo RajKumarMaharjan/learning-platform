@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
 import { Carousel } from "react-responsive-carousel";
 import { FaPlay } from "react-icons/fa";
-import kidsClass from "../../assets/Image/kid-learn-about.jpg";
-import squareUp from "../../assets/Image/up.svg";
+import kidsClass from "../../../public//Image/kid-learn-about.jpg";
+import squareUp from "../../../public//Image/up.svg";
 import { TiTick } from "react-icons/ti";
 import SubHeading from "../../components/Heading/SubHeading";
 import LargeSubHeading from "../../components/Heading/LargeSubHeading";
@@ -25,7 +25,8 @@ const LearnAboutCarousel = () => {
     );
   };
   return (
-    <div className="relative before:content-dotsSquare before:absolute before:left-0 before:-top-8">
+   <div className="sm:px-24 md:px-0">
+     <div className="relative before:content-dotsSquare before:absolute before:left-0 before:-top-8">
       <div className="grid md:grid-cols-2 gap-8 mx-auto mt-24 px-4">
         {/* LEFT SIDE */}
         <div className="relative w-full ">
@@ -159,6 +160,7 @@ const LearnAboutCarousel = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 

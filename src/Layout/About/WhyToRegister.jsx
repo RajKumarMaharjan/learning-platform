@@ -1,5 +1,5 @@
 import { FaPlay } from "react-icons/fa";
-import RightImg from "../../assets/Image/whyRegister.jpg";
+import RightImg from "../../../public/Image/whyRegister.jpg";
 import Heading from "../../components/Heading/SubHeading";
 import LargeSubHeading from "../../components/Heading/LargeSubHeading";
 import ItemList from "../../data/whyToRegister.json";

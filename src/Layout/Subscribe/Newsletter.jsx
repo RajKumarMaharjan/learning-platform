@@ -1,19 +1,19 @@
 import LargeSubHeading from "../../components/Heading/LargeSubHeading";
-import SideDot from "../../assets/Image/sideColorDot.svg";
+import SideDot from "../../../public/Image/sideColorDot.svg";
 
 function Newsletter() {
   return (
     <div className="relative">
       <div className="bg-bgColor">
-        <div className="relative flex flex-col justify-center items-center text-center py-24 md:before:content-subscribeLeft before:absolute before:-left-16 before:bottom-7 before:scale-[.6] md:after:content-subscribeRight after:absolute after:-right-16 after:top-0.5 after:scale-[.6]">
+        <div className="relative flex flex-col mx-auto items-center text-center sm:w-4/6 md:w-full  py-24 md:before:content-subscribeLeft before:absolute before:-left-16 before:bottom-7 before:scale-[.6] md:after:content-subscribeRight after:absolute after:-right-16 after:top-0.5 after:scale-[.6]">
           <div>
             <LargeSubHeading title="Subscribe Newsletter" color="white" />
-            <p className="text-white">
+            <p className="text-white ">
               Enter your email address to register to our newsletter delivered
               on a regular basis!
             </p>
           </div>
-          <form className="w-1/2 pt-[25px]">
+          <form className="xs:w-full md:w-1/2 pt-[25px]">
             <div className="relative flex justify-center items-center">
               <input
                 type="email"

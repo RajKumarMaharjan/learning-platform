@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/Image/DS logo.png";
+import Logo from "../../../public/Image/DS logo.png";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
@@ -30,6 +30,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleClick = () => {
+    setIsMenuToggled(!isMenuToggled);
+  };
+
   return (
     <div>
       {/* navbar */}
@@ -38,7 +42,7 @@ const Navbar = () => {
           isScrolled ? "shadow-lg" : ""
         } z-50`}
       >
-        <div className="flex justify-between items-center w-full px-4 h-[95px]">
+        <div className="flex justify-between items-center w-full px-4 sm:px-24 md:px-4 h-[95px]">
           <div>
             <img src={Logo} alt="logo" />
           </div>
@@ -60,7 +64,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li>
-                <Dropdown />
+                <Dropdown/>
               </li>
             </ul>
           </div>
@@ -95,8 +99,8 @@ const Navbar = () => {
               </div>
               {/* menu item */}
               <div className="ml-10 z-50 flex flex-col gap-8 text-[18px] font-semibold">
-              {menuItems.map((link, index) => (
-                  <div key={index} className="leading-3">
+                {menuItems.map((link, index) => (
+                  <div key={index} onClick={handleClick} className="leading-3">
                     <NavLink
                       to={link.route}
                       className={({ isActive }) =>
@@ -111,7 +115,7 @@ const Navbar = () => {
                   </div>
                 ))}
                 <div className="-mt-4">
-                <Dropdown/> 
+                  <Dropdown />
                 </div>
               </div>
             </div>
