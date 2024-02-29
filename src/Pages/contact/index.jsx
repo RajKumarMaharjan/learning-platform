@@ -1,5 +1,5 @@
 import Banner from "../../components/SecBanner/SecBanner";
-import ContactForm from "../../components/ContactUsForm/ContactUs";
+import ContactForm from "../../Layout/ContactUs/ContactUs";
 import LocationMap from "../../components/LocationMap/Map";
 
 function Contact() {
