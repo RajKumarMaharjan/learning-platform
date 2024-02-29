@@ -59,17 +59,24 @@ const DropdownMenu = [
         setIsDropdownVisible(false);
       }, 300); // Set a delay of 300 milliseconds (adjust as needed)
     };
+
+    const handleClick = () => {
+      setIsDropdownVisible(!isDropdownVisible);
+    };
+
+    const isSmallScreen = window.innerWidth < 768;
+    const isLargeScreen = window.innerWidth > 768;
   
     return (
       <div className="relative">
         <div
           className="dropdown-container"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={isLargeScreen ? handleMouseEnter : null}
+          onMouseLeave={isLargeScreen ? handleMouseLeave : null}
         >
-          <NavLink className="NavStyle">Pages</NavLink>
+          <NavLink className="NavStyle" onClick={isSmallScreen ? handleClick : null}>Pages</NavLink>
           <div
-            className={`absolute bg-white p-4 w-[180px] mt-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] md:${
+            className={`absolute bg-white p-4 w-[180px] mt-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] ${
               isDropdownVisible ? "visible dropdownIn" : "hidden"
             }`}
             style={{ opacity: isDropdownVisible ? 1 : 0 }}

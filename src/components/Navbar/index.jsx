@@ -95,7 +95,7 @@ const Navbar = () => {
               </div>
               {/* menu item */}
               <div className="ml-10 z-50 flex flex-col gap-8 text-[18px] font-semibold">
-                {menuItems.map((link, index) => (
+              {menuItems.map((link, index) => (
                   <div key={index} className="leading-3">
                     <NavLink
                       to={link.route}
@@ -110,6 +110,9 @@ const Navbar = () => {
                     </NavLink>
                   </div>
                 ))}
+                <div className="-mt-4">
+                <Dropdown/> 
+                </div>
               </div>
             </div>
           )}

@@ -146,7 +146,6 @@
 }
 
 #csc {
-
     &::before {
         content: '';
         background-color: #ffffff;
