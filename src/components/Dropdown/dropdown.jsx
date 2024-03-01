@@ -64,8 +64,8 @@ const DropdownMenu = [
       setIsDropdownVisible(!isDropdownVisible);
     };
 
-    const isSmallScreen = window.innerWidth < 768;
-    const isLargeScreen = window.innerWidth > 768;
+    const isSmallScreen = window.innerWidth < 1046;
+    const isLargeScreen = window.innerWidth > 856;
   
     return (
       <div className="relative">
@@ -77,7 +77,7 @@ const DropdownMenu = [
           <NavLink className="NavStyle" onClick={isSmallScreen ? handleClick : null}>Pages</NavLink>
           <div
             className={`absolute bg-white p-4 w-[180px] mt-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] ${
-              isDropdownVisible ? "visible dropdownIn" : "hidden"
+              isDropdownVisible ? "visible dropdownIn" : "hidden dropdownOut"
             }`}
             style={{ opacity: isDropdownVisible ? 1 : 0 }}
           >

@@ -40,7 +40,7 @@ const LearnAboutCarousel = () => {
             renderIndicator={(onClickHandler, isSelected, index) => {
               const indicatorStyle = {
                 display: "inline-block",
-                margin: "0 12px",
+                margin: "12px",
                 cursor: "pointer",
               };
               if (isSelected) {
@@ -52,7 +52,7 @@ const LearnAboutCarousel = () => {
                     aria-label={`Slide ${index + 1}`}
                     title={`Slide ${index + 1}`}
                   >
-                    <button className="border-none bg-light px-2 py-1 rounded absolute -bottom-1"></button>
+                    <button className="border-none bg-light px-[10px] py-[6px] rounded-xl absolute -bottom-1"></button>
                   </li>
                 );
               } else {
@@ -64,7 +64,7 @@ const LearnAboutCarousel = () => {
                     aria-label={`Slide ${index + 1}`}
                     title={`Slide ${index + 1}`}
                   >
-                    <button className="border-none bg-light p-1 rounded-full absolute -bottom-1"></button>
+                    <button className="border-none bg-light p-[6px] rounded-full absolute -bottom-1"></button>
                   </li>
                 );
               }

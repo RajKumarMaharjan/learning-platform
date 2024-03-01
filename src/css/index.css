@@ -1,6 +1,6 @@
 @keyframes dropdownIn {
     from {
-        transform: translateX(-20%);
+        transform: translateX(-25%);
         opacity: 0;
     }
 
@@ -9,10 +9,24 @@
         opacity: 1;
     }
 }
+@keyframes dropdownOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-25%);
+        opacity: 0;
+    }
+}
 
 .dropdownIn {
     /* animation: dropdownIn 0.5s forwards; */
-    animation: dropdownIn ease-in-out 0.5s forwards;
+    animation: dropdownIn 0.5s forwards;
+}
+.dropdownOut {
+    animation: dropdownIn 0.5s backwards;
 }
 
 /* For sliding in */

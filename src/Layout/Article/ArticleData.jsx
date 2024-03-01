@@ -21,7 +21,7 @@ function Article() {
             <div
               key={data.id}
               id="bounce"
-              className="shadow-lg hover:border-b-2 hover:border-red"
+              className="shadow-lg border-b-2 border-transparent hover:border-b-2 hover:border-red"
               style={{
                 transitionProperty: "transform",
                 transitionDuration: "0.3s",

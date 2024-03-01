@@ -16,7 +16,7 @@ function EventArticleLayout() {
             <div
               key={index}
               id="bounce"
-              className="shadow-lg bg-white hover:border-b-2 hover:border-red"
+              className="shadow-lg bg-white border-b-2 border-transparent hover:border-b-2 hover:border-red"
             >
               <div className="relative">
                 <img
