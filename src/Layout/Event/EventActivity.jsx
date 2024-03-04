@@ -9,7 +9,9 @@ const ExtraActivity = [
     details:
       "Offering weekly activities as visit Museum in the City to broaden the little world of your kids.",
     icon: (
-      <FaHome className="text-white bg-[#FFAB4A] w-[60px] h-[60px] rounded-full p-4" />
+      <div className="bg-[#FFAB4A] size-14 rounded-full  grid justify-center items-center">
+        <FaHome className="text-white text-3xl" />
+      </div>
     ),
   },
   {
@@ -17,7 +19,9 @@ const ExtraActivity = [
     details:
       "Offering weekly activities as visit Museum in the City to broaden the little world of your kids.",
     icon: (
-      <FaCalculator className="text-white bg-[#235C50] w-[60px] h-[60px] rounded-full p-4" />
+      <div className="bg-[#235C50] rounded-full size-14 grid justify-center items-center">
+        <FaCalculator className="text-white text-3xl" />
+      </div>
     ),
   },
   {
@@ -25,7 +29,9 @@ const ExtraActivity = [
     details:
       "Offering weekly activities as visit Museum in the City to broaden the little world of your kids.",
     icon: (
-      <FaTree className="text-white bg-[#FF554F] w-[60px] h-[60px] rounded-full p-4" />
+      <div className="bg-[#FF554F] rounded-full size-14 grid justify-center items-center">
+        <FaTree className="text-white text-3xl" />
+      </div>
     ),
   },
   {
@@ -33,7 +39,9 @@ const ExtraActivity = [
     details:
       "Offering weekly activities as visit Museum in the City to broaden the little world of your kids.",
     icon: (
-      <FaShower className="text-white bg-[#33415C] w-[60px] h-[60px] rounded-full p-4" />
+      <div className=" bg-[#33415C] size-14 rounded-full grid justify-center items-center">
+        <FaShower className="text-white text-3xl" />
+      </div>
     ),
   },
 ];
