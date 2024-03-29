@@ -2,10 +2,41 @@ import { FaPlay } from "react-icons/fa";
 import RightImg from "../../../public/Image/whyRegister.jpg";
 import Heading from "../../components/Heading/SubHeading";
 import LargeSubHeading from "../../components/Heading/LargeSubHeading";
-import ItemList from "../../data/whyToRegister.json";
+import { FaSchool, FaChalkboardTeacher, FaBook } from "react-icons/fa";
 
 function AboutChoice() {
-  const items = ItemList;
+  const items = [
+    {
+        "id": 1,
+        "title": "Well Trained Professionals",
+        "detail": "Enabling humanoid robot movement with imitation learning and mimicking of animal behaviors",
+        "icon": (
+          <div className="text-[#235C50] text-[44px] bg-[#fff] rounded-full p-3">
+            <FaSchool/>
+          </div>
+        )
+    },
+    {
+        "id": 2,
+        "title": "International Lesson Patterns",
+        "detail": "Summer of the SPAC, Adam Neumann returns and the Nissan Ariya debuts",
+        "icon": (
+          <div className="text-[#235C50] text-[44px] bg-[#fff] rounded-full p-3">
+            <FaChalkboardTeacher/>
+          </div>
+        )
+    },
+    {
+        "id": 3,
+        "title": "Awesome Infra-Structure",
+        "detail": "Ready, set, network! CrunchMatch is now open for Early Stage 2020",
+        "icon": (
+          <div className="text-[#235C50] text-[44px] bg-[#fff] rounded-full p-3">
+            <FaBook/>
+          </div>
+        )
+    }
+]
 
   return (
     <div className="bg-[#235C51]">
@@ -41,12 +72,8 @@ function AboutChoice() {
           {items.map((item) => (
             <ul key={item.id}>
               <li className="flex gap-6 py-4">
-                <div className="bg-[#fff] rounded-full h-20 px-6 py-8 flex items-center">
-                  <img
-                    src={item.imgUrl}
-                    alt="icon"
-                    className="object-cover w-full"
-                  />
+                <div className="">
+                {item.icon}
                 </div>
                 <div className="text-[#fff]">
                   <h2 className="text-[18px] font-[500] leading-[20px] mb-2">

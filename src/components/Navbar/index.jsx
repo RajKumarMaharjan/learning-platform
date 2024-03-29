@@ -68,7 +68,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="hidden sm:block">
             <button id="whatsapp-button" className="flex items-center">
               <FaWhatsapp /> +1 516 231 1313
             </button>
@@ -92,15 +92,15 @@ const Navbar = () => {
               <div className="flex justify-end p-12">
                 <button
                   onClick={() => setIsMenuToggled(false)}
-                  className="border-2 border-warning rounded-full p-2"
+                  className="border-2 border-warning rounded-full p-1 -mt-4 -mr-4"
                 >
                   <RxCross2 className="h-6 w-6 text-warning font-semibold" />
                 </button>
               </div>
               {/* menu item */}
-              <div className="ml-10 z-50 flex flex-col gap-8 text-[18px] font-semibold">
+              <div className="ml-10 z-50 space-y-10 text-[18px] font-semibold">
                 {menuItems.map((link, index) => (
-                  <div key={index} onClick={handleClick} className="leading-3">
+                  <div key={index} onClick={handleClick} className="leading-3 mt-4">
                     <NavLink
                       to={link.route}
                       className={({ isActive }) =>

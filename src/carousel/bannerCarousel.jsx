@@ -15,17 +15,18 @@ const BannerCarousel = () => {
   const handleNextClick = () => {
     setSlideIndex((prevIndex) => (prevIndex === 2 ? 0 : prevIndex + 1));
   };
+  
 
   return (
     <div className="relative xs:px-0 sm:px-24 md:px-0">
-      <Carousel
+     <Carousel
         showIndicators={false}
         showArrows={false}
         showStatus={false}
         showThumbs={false}
-        infiniteLoop={false}
+        infiniteLoop={true}
         autoPlay={false}
-        interval={5000}
+        interval={3000}
         onChange={(index) => setSlideIndex(index)} // Update slideIndex on change
         selectedItem={slideIndex} // Set the selected item based on slideIndex
       >
