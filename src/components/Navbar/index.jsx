@@ -13,6 +13,7 @@ const menuItems = NavMenu;
 
 const Navbar = () => {
   const activeLink = "text-lightPurple border-b-[3px] border-lightPurple pb-3";
+  const sideMenuActiveLink = "text-lightPurple";
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)");
@@ -98,13 +99,13 @@ const Navbar = () => {
                 </button>
               </div>
               {/* menu item */}
-              <div className="ml-10 z-50 space-y-10 text-[18px] font-semibold">
+              <div className="ml-10 z-50 space-y-3 text-[18px] font-semibold">
                 {menuItems.map((link, index) => (
-                  <div key={index} onClick={handleClick} className="leading-3 mt-4">
+                  <div key={index} onClick={handleClick}>
                     <NavLink
                       to={link.route}
                       className={({ isActive }) =>
-                        isActive ? `${activeLink}` : "hover:text-lightPurple"
+                        isActive ? `${sideMenuActiveLink}` : "hover:text-lightPurple"
                       }
                       onClick={() =>
                         window.scrollTo({ top: 0, behavior: "smooth" })
@@ -114,9 +115,7 @@ const Navbar = () => {
                     </NavLink>
                   </div>
                 ))}
-                <div className="-mt-4">
                   <Dropdown />
-                </div>
               </div>
             </div>
           )}
