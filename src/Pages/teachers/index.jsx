@@ -26,7 +26,7 @@ function Teachers() {
               play, learn, and grow better.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-8 py-24">
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 py-24">
             {kidsData.map((data, index) => (
               <div key={index} className="relative">
                 <div className="flex justify-center">
